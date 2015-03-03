@@ -51,7 +51,9 @@ define([
       './Chart/ChartCtrl',
       './Chart/ChartDirective',
 
-      './HelloWorld/HelloWorldCtrl'
+      './HelloWorld/HelloWorldCtrl',
+      './AssayScheduler/AssaySchedulerCtrl'
+
 
     ], function (ng) {
       'use strict';
@@ -80,6 +82,6 @@ define([
           'app.chart.ctrls',
           'app.chart.directives',
           'app.helloworld.ctrls',
-          'app.constants'
+          'AssaySchedulerApp'
       ]);
 });

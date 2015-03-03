@@ -94,7 +94,9 @@ requirejs.config({
             'angular'
         ],
         'bootstrap-file-input': {
-            deps: ['jquery'],
+            deps: [
+                'jquery'
+            ],
             exports: 'jQuery.fn.bootstrapFileInput'
         },
         flot: {
@@ -148,11 +150,15 @@ requirejs.config({
             'jquery'
         ],
         'jquery.slimscroll': {
-            deps: ['jquery'],
+            deps: [
+                'jquery'
+            ],
             exports: 'jQuery.fn.slimscroll'
         },
         'jquery-steps': {
-            deps: ['jquery'],
+            deps: [
+                'jquery'
+            ],
             exports: 'jQuery.fn.steps'
         },
         'jquery-spinner': [

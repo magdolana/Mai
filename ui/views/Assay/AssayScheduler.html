@@ -1,0 +1,30 @@
+</head>
+<!-- Select -->
+
+<section class="panel panel-default">
+    <div class="page" data-ng-controller="InstrumentListCtrl">
+        <div class="panel-heading"><strong><span class="glyphicon glyphicon-th"></span> Instrument</strong></div>
+        <div class="panel-body">
+            <span class="ui-select">
+                <select ng-model="instruments_value" ng-options="Instrument for Instrument in Instruments">
+                </select>
+            </span>
+        </div>
+    </div>
+</section>
+<!-- end Select -->
+<section class="panel panel-default">
+    <div class="panel-heading"><strong><span class="glyphicon glyphicon-th"></span> Instrument</strong></div>
+    <div class="panel-body">
+            <span class="ui-select">
+                <select>
+                    <option>HPLC</option>
+                    <option>ELISA</option>
+                    <option>qHTS</option>
+                </select>
+            </span>
+    </div>
+</section>
+
+
+

@@ -79,6 +79,8 @@ define(['./app'], function (app) {
                 templateUrl: 'ui/views/helloworld/helloworld.html'
             }).when('/Assay/Mai', {
                 templateUrl: 'ui/views/Assay/Mai.html'
+            }).when('/Assay/AssayScheduler', {
+                templateUrl: 'ui/views/Assay/AssayScheduler.html'
             }).otherwise({
                 redirectTo: '/404'
             });
